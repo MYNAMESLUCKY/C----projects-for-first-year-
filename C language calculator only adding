@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+  // Create an integer variable that will store the number we get from the user
+  int num1,num2,sum;
+  printf("Enter your first number:\n");
+  scanf("%d",&num1);
+  printf("Enter your second number:\n");
+  scanf("%d",&num2);
+  sum = num1 + num2;
+  printf("your answer will be down here:\n");
+  printf("%d",sum);
+  return 0;
+}
